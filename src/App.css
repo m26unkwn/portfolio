@@ -5,7 +5,7 @@
   color: #000;
 }
 :root {
-  --font-color: #323232;
+  --font-color: #e7e4e4;
   --spacing-1: 8px;
   --spacing-2: 12px;
   --spacing-3: 16px;
@@ -23,6 +23,7 @@
 body {
   font-family: "IBM Plex Mono", sans-serif;
   color: var(--font-color);
+  background-color: #131313;
   max-width: 900px;
   margin: 0 auto;
   display: flex;

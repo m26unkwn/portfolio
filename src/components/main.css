@@ -32,9 +32,10 @@ details {
   cursor: pointer;
 }
 
-summary {
+/* summary {
   list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
-}
+  color: white;
+} */
 
 .skill-container {
   width: 100%;
@@ -46,8 +47,44 @@ summary {
 .skill-container > * {
   margin-top: 8px;
 }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: var(--spacing-3) 0;
+}
+.contact-profile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: var(--spacing-3);
+}
+.contact-profile > * {
+  margin: 10px;
+}
+.view {
+  margin-top: var(--spacing-4);
+}
+.btn {
+  margin-top: var(--spacing-2);
+  text-decoration: none;
+  background-color: #e7e4e4;
+  padding: var(--spacing-2);
+  font-size: var(--spacing-2);
+  color: #131111;
+  border: 1px solid #131111;
+}
+.btn:hover {
+  background-color: #131111;
+  color: #e7e4e4;
+  border: 1px solid #e7e4e4;
+}
 @media only screen and (max-width: 600px) {
   .about-me-container {
     flex-direction: column;
+  }
+  body {
+    padding: var(--spacing-2);
   }
 }

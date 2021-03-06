@@ -10,22 +10,22 @@ export const About = () => {
           <div className='text'>
             <h2>About Me</h2>
             <p>
-              Hey👋 Finally you reached here😀. Welcome to my rollercoaster🎢
-              Journey.
+              Hey👋 Finally you reached here, Hope you are doing well!. Welcome
+              to my rollercoaster🎢 Journey.
             </p>
             <p>
-              I am a Frontend Developer👨‍💻 and imtermediate react Developer.
-              While learning React i came to know that
+              I am a Frontend Developer👨‍💻 and an intermediate react Developer
+              based in 🇮🇳. While learning React i came to know that
               <b> react is more javascript than react</b>.
             </p>
             <p>
-              In my free time I like to read about scientific developments,
-              mathematics, and computational mathematics. I also like to take my
-              chances of winning big.
+              In my free time I like to read about energy Developement,
+              programming, and some Robin Sharma's books. I am also a music
+              producer and try to produce some music in my free time.
             </p>
             <p>
               Fun fact! I've been programing for
-              <span id='time-container'>NaN</span> seconds!
+              <span>{}</span> seconds!
             </p>
           </div>
           <img src={image} alt='ima' className='potrait' />

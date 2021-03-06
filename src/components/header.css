@@ -20,3 +20,8 @@ nav {
   font-size: 1em;
   gap: 1em;
 }
+
+a {
+  text-decoration: none;
+  color: var(--font-color);
+}
