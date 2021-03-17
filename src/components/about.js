@@ -23,7 +23,7 @@ export const About = () => {
               programming, and some Robin Sharma's books. I am also a music
               producer and try to produce some music in my free time.
             </p>
-            <p>Fun fact! I am a not Alien 👽!</p>
+            <p>Fun fact! I am a Alien 👽!</p>
           </div>
           <img src={image} alt='ima' className='potrait' />
         </div>
